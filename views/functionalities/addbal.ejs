@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet | Add Balance</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+img{
+position: absolute;
+top: 330px;
+left: 1200px;
+width: 500px;
+height: 500px;
+overflow: hidden;
+text-indent: -999px;
+size: 60pt;
+
+}
+body{
+            background-color: #bebebe;
+        }
+        .container {
+            padding: 20%;
+            place-items: center;
+            margin: 2px;
+            height: 100%;
+            width: 100%;
+                    }
+        input[type=text], input[type=password] {
+                width: 20%;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                border: none;
+                background: #f1f1f1;
+                border-radius: 5%;
+                        }
+            input[type=text]:focus, input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+            }
+            #addbtn{
+                width: 20%;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                border: none;
+                background: #f1f1f1;
+                border-radius: 5%;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ADD Balance</h1>
+         <form action="">
+             <label for="amount">Add Amount:</label><br>
+             <input type="text" id="amountid" placeholder="Enter the amount"><br>
+             <label for="pin">Pin:</label><br>
+             <input type="password" id="pinid" placeholder="PIN"><br>
+             <button id="addbtn">ADD</button>
+         </form>
+         
+    </div>
+    <img src="/images/addbal.jpg" alt="Wallet image">
+</body>
+</html>
